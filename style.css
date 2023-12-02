@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.section1,
+.section2 {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color:aliceblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+#hero-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #FAFAF8;
+}
+#hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left-text{
+    width: 50%;
+
+}
+
+
+img{
+    max-width: 100%;
+}
+.section2{
+    padding:100px;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 15px;
+    color:#FAFAF8;
+    padding: 8px;
+    font-size: 18px;
+    border-color: #3882f6;
+}
+
+.section3 {
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+.image-holder{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align:center;
+    gap: 30px;
+    align-content: center;
+}
+
+.image-desc{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    max-width: 150px;
+}
+
+.i3{
+    outline: solid;
+    outline-color: #3882f6;
+    height:150px;
+    width:150px;
+    border-radius: 15px;
+}
+
+.section4{
+    background-color: #e5e7eb;
+    padding-left: 320px;
+    padding-right: 320px;
+    font-size: 36px;
+    font-weight: v;
+    font-style: italic;
+}
+
+#text-left{
+    text-align: end;
+    font-weight: bold;
+}
+
+.section5{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    background-color: #3882f6;
+    color: #FAFAF8;
+    width:800px;
+    border-radius: 6px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button-banner{
+    height: fit-content;  
+    align-self: left;
+    border: 2px solid black;
+    border-color: #e5e7eb;
+}
+
+.section6{
+    background-color: #1F2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding:20px;
+}
+
+.flower{
+    min-width: 100%;
+    min-height: 100%;
+}
