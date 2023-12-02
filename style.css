@@ -46,6 +46,7 @@ a {
 
 img{
     max-width: 100%;
+    border-radius: 15px;
 }
 .section2{
     padding:100px;
@@ -86,7 +87,7 @@ button{
 
 .i3{
     outline: solid;
-    outline-color: #3882f6;
+    outline-color: #1F2937;
     height:150px;
     width:150px;
     border-radius: 15px;
